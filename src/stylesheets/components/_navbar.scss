@@ -1,0 +1,24 @@
+.navbar {
+  display: flex;
+  min-width: 50vh;
+  justify-content:space-between;
+  align-items: center;
+}
+
+.nav__item {
+  color: $brown;
+  margin: 8px;
+}
+
+.nav__item:visited {
+  color: $brown;
+}
+
+.nav__item:active {
+  color: $green;
+}
+
+
+.nav__item:hover {
+  color: $red;
+}

@@ -1,0 +1,29 @@
+.skills__logo--small {
+  width: 32px;
+}
+
+.skills__container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.skills__card {
+  width: 24vw;
+  padding: 16px;
+  margin:8px;
+  background-color:$brown;
+  display: flex;
+  align-items: center;
+  border-radius: 16px;
+
+    & h3 {
+        color: $beige;
+        margin-left: 20px;
+
+    }
+
+    &:hover {
+      background-color: $green;
+      margin: 5px;
+    }
+}
