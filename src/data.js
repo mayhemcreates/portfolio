@@ -4,26 +4,29 @@ export const work = [
   {
     title: "Sheddy Advice",
     subtitle: "",
-    description: "An app providing DIY tutorials as a medicine for the cost of living crisis",
+    description: "An app providing DIY tutorials as an antidote for the cost of living crisis",
     stack: "Ruby on Rails",
     image: "../img/sheddy-advice.png",
-    url: "https://www.sheddyadvice.space/"
+    url: "https://www.sheddyadvice.space/",
+    colour: "red"
   },
   {
     title: "Meeseeker",
     subtitle: "",
-    description: "An app providing DIY tutorials as a medicine for the cost of living crisis",
+    description: "Hire a Meeseek for whatever you need. But don't make him live too long...Existence is pain!",
     stack: "Ruby on Rails",
     image: "../img/meeseeker.png",
-    url: "https://www.sheddyadvice.space/"
+    url: "https://www.sheddyadvice.space/",
+    colour: "green"
   },
   {
     title: "Green ISA",
     subtitle: "",
     description: "An app providing DIY tutorials as a medicine for the cost of living crisis",
     stack: "Ruby on Rails",
-    image: "../img/sheddy-advice.png",
-    url: "https://www.sheddyadvice.space/"
+    image: "../img/green-isa.png",
+    url: "https://www.sheddyadvice.space/",
+    colour:"red"
   },
 ]
 

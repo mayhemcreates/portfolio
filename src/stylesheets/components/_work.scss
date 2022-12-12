@@ -1,0 +1,45 @@
+.work__container {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.work_card {
+  position: relative;
+  margin-right: 20px;
+}
+
+ .work__card{
+  position:relative;
+  width: 300px;
+  height: 450px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-right: 20px;
+}
+
+.overlay {
+  opacity: 0;
+
+  &:hover {
+    opacity: 1;
+    transition: .2s ease;
+    position: absolute;
+    background-color:$red;
+    top: 0;
+    height:100%;
+    width: 100%;
+    border-radius: 12px;
+  }
+}
+
+.overlay .text {
+  color: $beige;;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
