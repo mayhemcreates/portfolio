@@ -3,7 +3,7 @@
 export const work = [
   {
     title: "Sheddy Advice",
-    subtitle: "",
+    alt: "this image shows a website with lots of video tutorials to learn DIY",
     description: "An app providing DIY tutorials as an antidote for the cost of living crisis",
     stack: "Ruby on Rails",
     image: "../img/sheddy-advice.png",
@@ -12,7 +12,7 @@ export const work = [
   },
   {
     title: "Meeseeker",
-    subtitle: "",
+    alt: "this image shows a big picture of a Meeseeker, with a button to click to enter",
     description: "Hire a Meeseek for whatever you need. But don't make him live too long...Existence is pain!",
     stack: "Ruby on Rails",
     image: "../img/meeseeker.png",
@@ -21,7 +21,7 @@ export const work = [
   },
   {
     title: "Green ISA",
-    subtitle: "",
+    alt: "this image shows a website with details about green isa, including a picture of a cow",
     description: "An app providing DIY tutorials as a medicine for the cost of living crisis",
     stack: "Ruby on Rails",
     image: "../img/green-isa.png",

@@ -15,7 +15,7 @@ export default function Work () {
             {work.map((work) => (
               <div key={work.title} >
                 <div className="work__card">
-                  <img src={work.image} className="work__card" />
+                  <img src={work.image} alt={work.alt} className="work__card" />
                   <div className="overlay">
                     <div class="text">
                       <h3>{work.title}</h3>

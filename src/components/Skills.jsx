@@ -4,7 +4,7 @@ import { skills } from '../data';
 export default function Skills() {
   return (
     <section id="skills">
-      <div className="container">
+      <div class="container">
         <div className="row">
           <div className="col-6">
             <h2>
@@ -18,7 +18,7 @@ export default function Skills() {
           <div className="skills__container">
             {skills.map((skill) => (
               <div key={skill.title} className="skills__card">
-                <img className="skills__logo--small" src={skill.logo} alt={skill.alt} />
+                <img className="skills__logo--small" src={skill.logo} alt={skill.title} />
                 <h3>{skill.title}</h3>
               </div>
             ))}

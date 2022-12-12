@@ -1,28 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&family=Urbanist&display=swap');
 
-// define fonts and sizes
+/* define font families */
 
 $headers-font: 'Manrope', sans-serif;
 $paragraph-font: 'Urbanist', sans-serif;
+
+h1, h2, h3 { font-family: $headers-font; }
+
+p, a {
+  font-family: $paragraph-font;
+}
+
+/* define font sizes */
 
 * { font-size: 20px;}
 
 
 $font-large: 1.5rem;
 $font-medium: 1.1rem;
-$font-small:0.8rem;
+$font-small:0.9rem;
 
-h1, h2, h3 { font-family: $headers-font; }
-
-p, a {
-  font-family: $paragraph-font;
+a {
+  text-decoration: none;
   font-size: $font-medium;
 }
 
-a { text-decoration: none; }
-
-
-// define font sizes
+p { font-size: $font-medium; }
 
 h1 { font-size: 1.5rem; }
 
@@ -33,7 +36,7 @@ h3 {
   margin: 0;
 }
 
-// define colors and background
+/* default colors and background */
 
 $beige: #FCF6E7;
 $green: #66ABAA;
@@ -46,11 +49,35 @@ body {
   background-color: $beige;
 }
 
-//spacing
+/* default spacing */
 
 html { padding: 8px; }
 
 section {
   margin: 24px;
   padding-top: 160px;
+ }
+
+ /* basic assets to be used across components */
+
+ button {
+  width: 176px;
+  height: 72px;
+  background-color: $red;
+  color: $beige;
+  font-size: $font-small;
+  font-family: $headers-font;
+  border: none;
+  margin-top: 48px;
+
+  &:hover {
+    background-color: $green;
+    cursor: pointer;
+  }
+ }
+
+ .icon--small {
+font-size: 60px;
+text-align: center;
+margin: 16px 0% 16px 0%;
  }
