@@ -7,17 +7,17 @@ export default function Work () {
     <div className="container">
       <div className="row">
         <div className="col-3">
-          <h2>Work</h2>
-          <p>Hover over the project cards to see details of my web app projects</p>
+          <h2>My Work</h2>
+          <p>Scroll right to see all my projects. Hover over the cards to see details.</p>
         </div>
-        <div className="col-6">
+        <div className="col-9">
           <div className="work__container">
             {work.map((work) => (
               <div key={work.title} >
                 <div className="work__card">
                   <img src={work.image} alt={work.alt} className="work__card" />
                   <div className="overlay">
-                    <div class="text">
+                    <div className="text">
                       <h3>{work.title}</h3>
                       <p>{work.description}</p>
                     </div>

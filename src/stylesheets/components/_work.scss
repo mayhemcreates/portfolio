@@ -1,7 +1,8 @@
 .work__container {
   display: flex;
   justify-content: space-between;
-
+  overflow:scroll;
+  overflow-y: hidden;
 }
 
 .work_card {
@@ -41,3 +42,4 @@
   transform: translate(-50%, -50%);
   text-align: center;
 }
+

@@ -7,9 +7,11 @@ $paragraph-font: 'Urbanist', sans-serif;
 
 h1, h2, h3 { font-family: $headers-font; }
 
-p, a {
+p, a, label {
   font-family: $paragraph-font;
 }
+
+
 
 /* define font sizes */
 
@@ -58,7 +60,7 @@ section {
   padding-top: 160px;
  }
 
- /* basic assets to be used across components */
+ /* global assets */
 
  button {
   width: 176px;
@@ -81,3 +83,18 @@ font-size: 60px;
 text-align: center;
 margin: 16px 0% 16px 0%;
  }
+
+ // styling scrollbar
+
+::-webkit-scrollbar-thumb {
+  display:none;
+}
+/* width */
+::-webkit-scrollbar {
+  display:none;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  display:none;
+}

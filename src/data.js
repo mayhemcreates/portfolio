@@ -22,22 +22,30 @@ export const work = [
   {
     title: "Green ISA",
     alt: "this image shows a website with details about green isa, including a picture of a cow",
-    description: "An app providing DIY tutorials as a medicine for the cost of living crisis",
-    stack: "Ruby on Rails",
+    description: "A website to promote a new green isa, for customers to invest in green infrastructure",
+    stack: "HTML, CSS, Javascript",
     image: "../img/green-isa.png",
     url: "https://www.sheddyadvice.space/",
     colour:"red"
   },
+  {
+    title: "The Shirkers Rest",
+    alt: "this image displays a website for the pub the Shirkers Rest",
+    description: "A website to promote a new pub in South East London",
+    stack: "Wordpress, CSS",
+    image: "../img/shirkers-rest.png",
+    url: "https://theshirkersrest.co.uk/"
+  }
 ]
 
 export const skills = [
   {
     title: "React",
-    logo: "../public/img/react-icon.svg"
+    logo: "../img/react-icon.svg"
   },
   {
     title: "Ruby on Rails",
-    logo: "../public/img/rails-icon.png"
+    logo: "../img/rails-icon.png"
   },
   {
     title: "Javascript",

@@ -4,11 +4,11 @@ import { skills } from '../data';
 export default function Skills() {
   return (
     <section id="skills">
-      <div class="container">
+      <div className="container">
         <div className="row">
           <div className="col-6">
             <h2>
-              Skills &amp; Technologies
+              My Skills
             </h2>
             <p>
               I specialise in front-end development, with experience of full-stack frameworks.

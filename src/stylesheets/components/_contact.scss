@@ -1,0 +1,20 @@
+.contact__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact__form--red {
+  background-color: $green;
+  border: 2px solid $brown;
+}
+
+.contact__form--label {
+  display: block;
+}
+
+.contact__form--input {
+  width: 100%;
+  border: 2px solid $brown;
+}
